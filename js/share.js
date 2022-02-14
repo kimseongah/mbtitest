@@ -5,7 +5,7 @@ function setShare(){
   const shareTitle = 'mbti 테스트 결과';
   const shareDes = infoList[resultAlt].name;
   const shareImage = url + 'img/image-'+resultAlt+'.png';
-  const shareURL = url + 'page.result-'+resultAlt+'.html';
+  const shareURL = url + 'page/result-'+resultAlt+'.html';
   Kakao.Link.sendDefault({
     objectType: 'feed',
     content: {
